@@ -1,0 +1,22 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Layout from "../layouts/Layout.astro";
+import ContactForm from "../components/ContactForm.astro";
+---
+
+<Layout title="Brothers Homewood : Contact">
+  <Header />
+  <main class="mx-auto my-auto">
+    <ContactForm />
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1em;
+    max-width: 120ch;
+  }
+</style>

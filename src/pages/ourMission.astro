@@ -1,0 +1,82 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import EmployeeCard from "../components/EmployeeCard.astro";
+---
+
+<Layout title="Brothers Homewood : Our Mission">
+  <Header />
+
+  <main>
+    <h1 id="our-mission"
+    class="p-6 bg-green-100 rounded-xl text-3xl font-mono text-center text-green-900 m-3"
+  >
+    Our Mission
+  </h1>
+    <div class="p-6 bg-green-100 rounded-xl m-3">
+      <h2
+        class="text-center bg-green-200 p-2 rounded-lg my-2 text-green-900 text-xl font-mono px-3 italic"
+      >
+        Vermonters, Stewards of Vermont
+      </h2>
+      <p class="bg-green-200 p-2 rounded-lg my-2">
+        Brothers Home Woods Management is a small-scale forest management and
+        tree cutting service, catering to jobs that fall between production
+        logging and arborist. But we are more than that, our goals and our roots
+        run deep.
+        <br /><br />
+        Brothers Home Woods Management is run by two 8th generation Vermonters with
+        an inherent love for their home. Growing up Austin and Lindley Barrett spent
+        their time outdoors enjoying the woods and waters of Vermont. Having experienced
+        the natural beauty their whole lives they have now made it their mission
+        to steward and preserve the beauty and the health of the forests of Vermont,
+        one acre at a time.
+        <br /><br />
+        We view the woods as a garden. In a garden you weed, fertilize, remove harmful
+        insects/diseases, and harvest. Gardens regenerate, and may be managed so
+        crops grow well together, or you may just want a garden to look pretty. A
+        forest is much the same, the rate and way a forest grows can be changed through
+        culling. Fine woody debris can be left as natural fertilizer and animal habitat,
+        Coarse woody debris can be used for these purposes also. However, this practice
+        is typically used for long-term management plans and large woods. Much like
+        a ripe vegetable, a mature tree can be worth taking for a variety of uses.
+        You may have some select specimen trees that you would like felled for milling,
+        some trees you would like to use as firewood, or some unwell trees to be
+        saved for that same purpose, And this harvesting promotes new growth by opening
+        up the canopy and creating space. You can promote the growth of certain tree
+        species by promoting the growth of others that work well with them, such
+        as promoting the growth of shade tolerant trees by allowing the growth of
+        shade trees. Lastly, Like a flower garden, Woods can be managed purely for
+        their aesthetics, showcasing natural structures and select trees. When managed
+        properly, cutting trees, be it for firewood; for milling; for view; or for
+        trails, isn't destructive. Rather, people, animals, and the forest can all
+        benefit if we work to preserve the health and habitat of our woods, that
+        is our goal.
+        <br /><br />
+        Brothers Services All of Lamoille County, Franklin County and select towns
+        in the surrounding counties
+      </p>
+    </div>
+    <div id="meet-the-team" class="grid-cols-2">
+      <EmployeeCard
+        name="Austin Barret"
+        body="Descritption Yet to be written"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220526_093753_1657236318.jpg?width=800"
+      />
+      <EmployeeCard
+        name="Lindley Barret"
+        body="Descritption Yet to be written"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220526_162346_1657235988.jpg?width=800"
+      />
+    </div>
+  </main>
+  <Footer />
+</Layout>
+<style>
+  main {
+    margin: auto;
+    padding: 1em;
+    max-width: 120ch;
+  }
+</style>

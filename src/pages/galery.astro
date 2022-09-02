@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ImageHero from "../components/ImageHero.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro"
+---
+
+<Layout title="Brothers Homewood : Gallery">
+  <Header />
+  <main>
+    <ul class="grid grid-cols-2">
+      <ImageHero
+        title="Tree Felling"
+        alt="Tree Felling"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220526_092349_1655249570.jpg"
+      />
+
+      <ImageHero
+        title="Lot Clearing"
+        alt="Lot Clearing"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220513_113919_1655249552.jpg"
+      />
+      <ImageHero
+        title="Tree Specialty Removal"
+        alt="Tree Specialty Removal"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220311_144101_1655249509.jpg"
+      />
+      <ImageHero
+        title="Woodchipping"
+        alt="Woodchipping"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220511_115212_1655249905.jpg"
+      />
+      <ImageHero
+        title="Storm Damage Tree Removal - Before"
+        alt="Storm Drain Tree Removal - Before"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220613_083203_1655249593.jpg?width=800"
+      />
+      <ImageHero
+        title="Storm Damge Tre Removal - After"
+        alt="Storm Damge Tre Removal - After"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/Crop%20pic%201_1655563321.jpg"
+      />
+      <ImageHero
+        title="Aesthetic Management - In Progress"
+        alt="Aesthetic Management - In Progress"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/crop%202_1655563808.jpg?width=800"
+      />
+      <ImageHero
+        title="Aesthetics Management"
+        alt="Aesthetics Management"
+        src="https://www.brothershomewoods.com/uploads/b/ab139608239bd1e52422edb6ca2e17d4744ac5e90ea3435e52f3bccb9802883d/20220125_085627_1655249648.jpg?width=800"
+      />
+    </ul>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1em;
+    max-width: 120ch;
+  }
+</style>
